@@ -1,0 +1,29 @@
+.pubilctable{
+    position: relative;
+    width: 90%;
+    margin: 0 auto;
+    box-sizing: border-box;
+    overflow: hidden;
+    table{
+        width: 100%;
+        thead{
+            height: 40px;
+            tr{
+                height: 100%;
+                background-color: rgba(100,100,133,.7);
+                td{
+                    background-color: rgba(0,0,0,0);
+                    border: none;
+                }
+            }
+        }
+        tbody{
+            tr{
+                height: 40px;
+            }
+            tr:nth-of-type(2n) td{
+                    background-color: rgba(100,100,100,.1);
+            }
+        }
+    }
+}

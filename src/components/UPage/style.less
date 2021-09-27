@@ -1,0 +1,45 @@
+.u-page {
+    position: relative;
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+    box-sizing: border-box;
+    .toggleVc {
+      position: absolute;
+      left: 0;
+      top: 34.7vw;
+      z-index: 50;
+      width: 21.3vw;
+      height: 21.3vw;
+      background-color: transparent;
+    }
+    .u-content {
+        position: absolute;
+        width: 100%;
+        overflow-y: auto;
+        overflow-x: hidden;
+        background-color: #f5f5f5;
+    }
+
+    .u-content-box-radius {
+        background: rgba(255, 255, 255, 1);
+        border-radius: 4.2vw 4.2vw 0 0;
+    }
+    .u-v-console-show {
+         position: absolute;
+         z-index: 9999;
+         right: 0;
+         top: 0;
+         width: 10px;
+         height: 10px;
+     }
+    .u-v-console-destroy {
+        position: absolute;
+        z-index: 9999;
+        left: 0;
+        bottom: 0;
+        width: 10px;
+        height: 10px;
+    }
+}

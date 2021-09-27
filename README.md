@@ -1,18 +1,28 @@
 # shiyantwo
+## 页面功能
+```
+core
+  |
+  |==> public 公共资源
+src
+  |  
+  |==> views 页面
+  | 
+  |==> utils 公共事件
+```
+## Project setup 依赖安装
+```
+npm install
+```
 
-## Project setup
+### Compiles and hot-reloads for development 本地运行
 ```
-yarn install
-```
-
-### Compiles and hot-reloads for development
-```
-yarn run serve
+npm run serve
 ```
 
-### Compiles and minifies for production
+### Compiles and minifies for production 本地打包
 ```
-yarn run build
+npm run build
 ```
 
 ### Run your tests
