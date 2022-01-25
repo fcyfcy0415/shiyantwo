@@ -1,4 +1,4 @@
-（https://shiyantwo/dist/index.html）
+https://shiyantwo/dist/index.html
 # shiyantwo
 ## 页面功能
 ```
