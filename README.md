@@ -10,17 +10,17 @@ src
   | 
   |==> utils 公共事件
 ```
-## Project setup 依赖安装
+## 依赖安装
 ```
 npm install
 ```
 
-### Compiles and hot-reloads for development 本地运行
+### 本地运行
 ```
 npm run serve
 ```
 
-### Compiles and minifies for production 本地打包
+### 本地打包
 ```
 npm run build
 ```
