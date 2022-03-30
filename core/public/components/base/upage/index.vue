@@ -3,7 +3,7 @@
 * <u-page></u-page>
 */
 <template>
-    <div class="page">
+    <div id="pageId" class="page">
         <slot></slot>
     </div>
 </template>
